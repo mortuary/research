@@ -3,67 +3,67 @@
 $ceogate = $_SERVER['REQUEST_URI'];
 if (preg_match("/sherwood/", $ceogate)) {
 
-$APPLICATION->SetPageProperty("description", "Øåðâóä - ýòî êîòòåäæíûé ïîñåëîê â ñîñíîâîì áîðó. Â êîòòåäæíîì ïîñåëêå Øåðâóä âñå ãîòîâî ê ïðîæèâàíèþ.");
-$APPLICATION->SetPageProperty("keywords_inner", "ïîñåëîê, êîòòåäæíûé, øåðâóä");
-$APPLICATION->SetPageProperty("title", "Êîòòåäæíûé ïîñåëîê Øåðâóä îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ïîñåëîê, êîòòåäæíûé, øåðâóä");
+$APPLICATION->SetPageProperty("description", "Ð¨ÐµÑ€Ð²ÑƒÐ´ - ÑÑ‚Ð¾ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð² ÑÐ¾ÑÐ½Ð¾Ð²Ð¾Ð¼ Ð±Ð¾Ñ€Ñƒ. Ð’ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ð¾Ð¼ Ð¿Ð¾ÑÐµÐ»ÐºÐµ Ð¨ÐµÑ€Ð²ÑƒÐ´ Ð²ÑÐµ Ð³Ð¾Ñ‚Ð¾Ð²Ð¾ Ðº Ð¿Ñ€Ð¾Ð¶Ð¸Ð²Ð°Ð½Ð¸ÑŽ.");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, ÑˆÐµÑ€Ð²ÑƒÐ´");
+$APPLICATION->SetPageProperty("title", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð¨ÐµÑ€Ð²ÑƒÐ´ Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, ÑˆÐµÑ€Ð²ÑƒÐ´");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
-$APPLICATION->SetTitle("Øåðâóä");
+$APPLICATION->SetTitle("Ð¨ÐµÑ€Ð²ÑƒÐ´");
 } elseif (preg_match("/riverside/", $ceogate)) {
-$APPLICATION->SetPageProperty("description", "Ðèâåðñàéä - ýòî êîòòåäæíûé ïîñåëîê íà ðå÷íîì ïîáåðåæüå. Â ïîñåëêå Ðèâåðñàéä âñå ãîòîâî ê çàñåëåíèþ.");
-$APPLICATION->SetPageProperty("keywords_inner", "ðèâåðñàéä, ïîñåëîê, êîòòåäæíûé");
-$APPLICATION->SetPageProperty("title", "Êîòòåäæíûé ïîñåëîê Ðèâåðñàéä îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ðèâåðñàéä, ïîñåëîê, êîòòåäæíûé");
+$APPLICATION->SetPageProperty("description", "Ð Ð¸Ð²ÐµÑ€ÑÐ°Ð¹Ð´ - ÑÑ‚Ð¾ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð½Ð° Ñ€ÐµÑ‡Ð½Ð¾Ð¼ Ð¿Ð¾Ð±ÐµÑ€ÐµÐ¶ÑŒÐµ. Ð’ Ð¿Ð¾ÑÐµÐ»ÐºÐµ Ð Ð¸Ð²ÐµÑ€ÑÐ°Ð¹Ð´ Ð²ÑÐµ Ð³Ð¾Ñ‚Ð¾Ð²Ð¾ Ðº Ð·Ð°ÑÐµÐ»ÐµÐ½Ð¸ÑŽ.");
+$APPLICATION->SetPageProperty("keywords_inner", "Ñ€Ð¸Ð²ÐµÑ€ÑÐ°Ð¹Ð´, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹");
+$APPLICATION->SetPageProperty("title", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð Ð¸Ð²ÐµÑ€ÑÐ°Ð¹Ð´ Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ñ€Ð¸Ð²ÐµÑ€ÑÐ°Ð¹Ð´, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
-$APPLICATION->SetTitle("Ðèâåðñàéä");
+$APPLICATION->SetTitle("Ð Ð¸Ð²ÐµÑ€ÑÐ°Ð¹Ð´");
 } elseif (preg_match("/parkavenue/", $ceogate)) {
-$APPLICATION->SetPageProperty("description", "Êîòòåäæíûé ïîñåëîê Ïàðê Àâåíþ âûñòðîåí â àìåðèêàíñêîì ñòèëå. Âûáåðèòå òàóíõàóñ èëè àïàðòàìåíòû â ïîñåëêå Park Avenue îò  Villagio Estate.");
-$APPLICATION->SetPageProperty("keywords_inner", "ïàðê, àâåíþ, ïîñåëîê, òàóíõàóñ, àïàðòàìåíòû, êîòòåäæíûé, park, avenue");
-$APPLICATION->SetPageProperty("title", "Êîòòåäæíûé ïîñåëîê Ïàðê Àâåíþ - òàóíõàóñû è àïàðòàìåíòû â ïîñåëêå Park Avenue îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ïàðê, àâåíþ, ïîñåëîê, òàóíõàóñ, àïàðòàìåíòû, êîòòåäæíûé, park, avenue");
+$APPLICATION->SetPageProperty("description", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº ÐŸÐ°Ñ€Ðº ÐÐ²ÐµÐ½ÑŽ Ð²Ñ‹ÑÑ‚Ñ€Ð¾ÐµÐ½ Ð² Ð°Ð¼ÐµÑ€Ð¸ÐºÐ°Ð½ÑÐºÐ¾Ð¼ ÑÑ‚Ð¸Ð»Ðµ. Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ñ‚Ð°ÑƒÐ½Ñ…Ð°ÑƒÑ Ð¸Ð»Ð¸ Ð°Ð¿Ð°Ñ€Ñ‚Ð°Ð¼ÐµÐ½Ñ‚Ñ‹ Ð² Ð¿Ð¾ÑÐµÐ»ÐºÐµ Park Avenue Ð¾Ñ‚  Villagio Estate.");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¿Ð°Ñ€Ðº, Ð°Ð²ÐµÐ½ÑŽ, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ñ‚Ð°ÑƒÐ½Ñ…Ð°ÑƒÑ, Ð°Ð¿Ð°Ñ€Ñ‚Ð°Ð¼ÐµÐ½Ñ‚Ñ‹, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, park, avenue");
+$APPLICATION->SetPageProperty("title", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº ÐŸÐ°Ñ€Ðº ÐÐ²ÐµÐ½ÑŽ - Ñ‚Ð°ÑƒÐ½Ñ…Ð°ÑƒÑÑ‹ Ð¸ Ð°Ð¿Ð°Ñ€Ñ‚Ð°Ð¼ÐµÐ½Ñ‚Ñ‹ Ð² Ð¿Ð¾ÑÐµÐ»ÐºÐµ Park Avenue Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¿Ð°Ñ€Ðº, Ð°Ð²ÐµÐ½ÑŽ, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ñ‚Ð°ÑƒÐ½Ñ…Ð°ÑƒÑ, Ð°Ð¿Ð°Ñ€Ñ‚Ð°Ð¼ÐµÐ½Ñ‚Ñ‹, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, park, avenue");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
-$APPLICATION->SetTitle("Ïàðê Àâåíþ");
+$APPLICATION->SetTitle("ÐŸÐ°Ñ€Ðº ÐÐ²ÐµÐ½ÑŽ");
 } elseif (preg_match("/madisonpark/", $ceogate)) {
-$APPLICATION->SetPageProperty("description", "Êîòòåäæíûé ïîñåëîê Medison Park ðàñïîëîæåí â ýêîëîãè÷åñêè ÷èñòîì ðàéîíå. Â ïîñåëêå Ìýäèñîí Ïàðê ñîõðàíåíà åñòåñòâåííàÿ êðàñîòà ëàíäøàôòîâ.");
-$APPLICATION->SetPageProperty("keywords_inner", "ìýäèñîí, ïàðê, ïîñåëîê, êîòòåäæíûé, madison, park");
-$APPLICATION->SetPageProperty("title", "Êîòòåäæíûé ïîñåëîê Ìýäèñîí Ïàðê -âûáåðèòå äîì â ïîñåëêå Madison Park îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ìýäèñîí, ïàðê, ïîñåëîê, êîòòåäæíûé, madison, park");
+$APPLICATION->SetPageProperty("description", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Medison Park Ñ€Ð°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½ Ð² ÑÐºÐ¾Ð»Ð¾Ð³Ð¸Ñ‡ÐµÑÐºÐ¸ Ñ‡Ð¸ÑÑ‚Ð¾Ð¼ Ñ€Ð°Ð¹Ð¾Ð½Ðµ. Ð’ Ð¿Ð¾ÑÐµÐ»ÐºÐµ ÐœÑÐ´Ð¸ÑÐ¾Ð½ ÐŸÐ°Ñ€Ðº ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ð° ÐµÑÑ‚ÐµÑÑ‚Ð²ÐµÐ½Ð½Ð°Ñ ÐºÑ€Ð°ÑÐ¾Ñ‚Ð° Ð»Ð°Ð½Ð´ÑˆÐ°Ñ„Ñ‚Ð¾Ð².");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¼ÑÐ´Ð¸ÑÐ¾Ð½, Ð¿Ð°Ñ€Ðº, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, madison, park");
+$APPLICATION->SetPageProperty("title", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº ÐœÑÐ´Ð¸ÑÐ¾Ð½ ÐŸÐ°Ñ€Ðº -Ð²Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð´Ð¾Ð¼ Ð² Ð¿Ð¾ÑÐµÐ»ÐºÐµ Madison Park Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¼ÑÐ´Ð¸ÑÐ¾Ð½, Ð¿Ð°Ñ€Ðº, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, madison, park");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
 $APPLICATION->SetTitle("Medison Park");
 } elseif (preg_match("/monteville/", $ceogate)) {
-$APPLICATION->SetPageProperty("description", "Ýëèòíûé ïîñåëîê Monteville ñ êðàñèâûìè ïåéçàæàìè è ñàäàìè.  Villagio Estate ïðåäëàãàåò ïðèîáðåñòè ó÷àñòîê â êîòòåäæíîì ïîñåëêå  Ìîíòåâèëü.");
-$APPLICATION->SetPageProperty("keywords_inner", "ìîíòåâèëü, ïîñåëîê, êîòòåäæíûé, monteville");
-$APPLICATION->SetPageProperty("title", "Êîòòåäæíûé ïîñåëîê Ìîíòåâèëü - äîìà â ïîñåëêå Monteville îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ìîíòåâèëü, ïîñåëîê, êîòòåäæíûé, monteville");
+$APPLICATION->SetPageProperty("description", "Ð­Ð»Ð¸Ñ‚Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Monteville Ñ ÐºÑ€Ð°ÑÐ¸Ð²Ñ‹Ð¼Ð¸ Ð¿ÐµÐ¹Ð·Ð°Ð¶Ð°Ð¼Ð¸ Ð¸ ÑÐ°Ð´Ð°Ð¼Ð¸.  Villagio Estate Ð¿Ñ€ÐµÐ´Ð»Ð°Ð³Ð°ÐµÑ‚ Ð¿Ñ€Ð¸Ð¾Ð±Ñ€ÐµÑÑ‚Ð¸ ÑƒÑ‡Ð°ÑÑ‚Ð¾Ðº Ð² ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ð¾Ð¼ Ð¿Ð¾ÑÐµÐ»ÐºÐµ  ÐœÐ¾Ð½Ñ‚ÐµÐ²Ð¸Ð»ÑŒ.");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¼Ð¾Ð½Ñ‚ÐµÐ²Ð¸Ð»ÑŒ, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, monteville");
+$APPLICATION->SetPageProperty("title", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº ÐœÐ¾Ð½Ñ‚ÐµÐ²Ð¸Ð»ÑŒ - Ð´Ð¾Ð¼Ð° Ð² Ð¿Ð¾ÑÐµÐ»ÐºÐµ Monteville Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¼Ð¾Ð½Ñ‚ÐµÐ²Ð¸Ð»ÑŒ, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, monteville");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
 $APPLICATION->SetTitle("Medison Park");
 } elseif (preg_match("/millennium/", $ceogate)) {
-$APPLICATION->SetPageProperty("description", "Ìèëëåíèóì Ïàðê - ýëèòíûé êîòòåäæíûé ïîñåëîê ñ âîäíûìè êàíàëàìè íà Íîâîé Ðèãå. Âûáåðèòå äîì â êîòòåäæíîì ïîñåëêå Millennium Park îò  Villagio Estate.");
-$APPLICATION->SetPageProperty("keywords_inner", "ìèëëåíèóì, ïàðê, ïîñåëîê, íîâàÿ ðèãà, êîòòåäæíûé, millennium, park");
-$APPLICATION->SetPageProperty("title", "Millennium Park. Ïîñåëîê Ìèëëåíèóì Ïàðê - ýëèòíûé êîòòåäæíûé ïîñåëîê íà Íîâîé Ðèãå îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ìèëëåíèóì, ïàðê, ïîñåëîê, íîâàÿ ðèãà, êîòòåäæíûé, millennium, park");
+$APPLICATION->SetPageProperty("description", "ÐœÐ¸Ð»Ð»ÐµÐ½Ð¸ÑƒÐ¼ ÐŸÐ°Ñ€Ðº - ÑÐ»Ð¸Ñ‚Ð½Ñ‹Ð¹ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ñ Ð²Ð¾Ð´Ð½Ñ‹Ð¼Ð¸ ÐºÐ°Ð½Ð°Ð»Ð°Ð¼Ð¸ Ð½Ð° ÐÐ¾Ð²Ð¾Ð¹ Ð Ð¸Ð³Ðµ. Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð´Ð¾Ð¼ Ð² ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ð¾Ð¼ Ð¿Ð¾ÑÐµÐ»ÐºÐµ Millennium Park Ð¾Ñ‚  Villagio Estate.");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¼Ð¸Ð»Ð»ÐµÐ½Ð¸ÑƒÐ¼, Ð¿Ð°Ñ€Ðº, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ð½Ð¾Ð²Ð°Ñ Ñ€Ð¸Ð³Ð°, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, millennium, park");
+$APPLICATION->SetPageProperty("title", "Millennium Park. ÐŸÐ¾ÑÐµÐ»Ð¾Ðº ÐœÐ¸Ð»Ð»ÐµÐ½Ð¸ÑƒÐ¼ ÐŸÐ°Ñ€Ðº - ÑÐ»Ð¸Ñ‚Ð½Ñ‹Ð¹ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð½Ð° ÐÐ¾Ð²Ð¾Ð¹ Ð Ð¸Ð³Ðµ Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¼Ð¸Ð»Ð»ÐµÐ½Ð¸ÑƒÐ¼, Ð¿Ð°Ñ€Ðº, Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ð½Ð¾Ð²Ð°Ñ Ñ€Ð¸Ð³Ð°, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, millennium, park");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
 $APPLICATION->SetTitle("Medison Park");
 } elseif (preg_match("/lazurnybereg/", $ceogate)) {
-$APPLICATION->SetPageProperty("description", "Êîòòåäæíûé ïîñåëîê Ëàçóðíûé áåðåã îò Villagio Estate ðàñïîëîæåí  íåäàëåêî îò Ïåñòîâñêîãî âîäîõðàíèëèùà.");
-$APPLICATION->SetPageProperty("keywords_inner", "ïîñåëîê, áåðåã, ëàçóðíûé, êîòòåäæíûé");
-$APPLICATION->SetPageProperty("title", "Êîòòåäæíûé ïîñåëîê Ëàçóðíûé áåðåã îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ïîñåëîê, áåðåã, ëàçóðíûé, êîòòåäæíûé");
+$APPLICATION->SetPageProperty("description", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð›Ð°Ð·ÑƒÑ€Ð½Ñ‹Ð¹ Ð±ÐµÑ€ÐµÐ³ Ð¾Ñ‚ Villagio Estate Ñ€Ð°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½  Ð½ÐµÐ´Ð°Ð»ÐµÐºÐ¾ Ð¾Ñ‚ ÐŸÐµÑÑ‚Ð¾Ð²ÑÐºÐ¾Ð³Ð¾ Ð²Ð¾Ð´Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ð»Ð¸Ñ‰Ð°.");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ð±ÐµÑ€ÐµÐ³, Ð»Ð°Ð·ÑƒÑ€Ð½Ñ‹Ð¹, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹");
+$APPLICATION->SetPageProperty("title", "ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð›Ð°Ð·ÑƒÑ€Ð½Ñ‹Ð¹ Ð±ÐµÑ€ÐµÐ³ Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ð±ÐµÑ€ÐµÐ³, Ð»Ð°Ð·ÑƒÑ€Ð½Ñ‹Ð¹, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
 $APPLICATION->SetTitle("Medison Park");
 } elseif (preg_match("/greenfield/", $ceogate)) {
-$APPLICATION->SetPageProperty("description", "Ýëèòíûé êîòòåäæíûé ïîñåëîê Ãðèíôèëä îò  Villagio Estate. Âûáåðèòå äîì â æèâîïèñíîì óãîëêå ïîñåëêà Greenfield. ");
-$APPLICATION->SetPageProperty("keywords_inner", "ïîñåëîê, êîòòåäæíûé, ýëèòíûé, ãðèíôèëä, greenfield");
-$APPLICATION->SetPageProperty("title", "Ãðèíôèëä (Greenfield) - ýëèòíûé êîòòåäæíûé ïîñåëîê ñ îçåðîì îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ïîñåëîê, êîòòåäæíûé, ýëèòíûé, ãðèíôèëä, greenfield");
+$APPLICATION->SetPageProperty("description", "Ð­Ð»Ð¸Ñ‚Ð½Ñ‹Ð¹ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ð“Ñ€Ð¸Ð½Ñ„Ð¸Ð»Ð´ Ð¾Ñ‚  Villagio Estate. Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð´Ð¾Ð¼ Ð² Ð¶Ð¸Ð²Ð¾Ð¿Ð¸ÑÐ½Ð¾Ð¼ ÑƒÐ³Ð¾Ð»ÐºÐµ Ð¿Ð¾ÑÐµÐ»ÐºÐ° Greenfield. ");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, ÑÐ»Ð¸Ñ‚Ð½Ñ‹Ð¹, Ð³Ñ€Ð¸Ð½Ñ„Ð¸Ð»Ð´, greenfield");
+$APPLICATION->SetPageProperty("title", "Ð“Ñ€Ð¸Ð½Ñ„Ð¸Ð»Ð´ (Greenfield) - ÑÐ»Ð¸Ñ‚Ð½Ñ‹Ð¹ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹ Ð¿Ð¾ÑÐµÐ»Ð¾Ðº Ñ Ð¾Ð·ÐµÑ€Ð¾Ð¼ Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, ÑÐ»Ð¸Ñ‚Ð½Ñ‹Ð¹, Ð³Ñ€Ð¸Ð½Ñ„Ð¸Ð»Ð´, greenfield");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
 $APPLICATION->SetTitle("Medison Park");
 } else {
-$APPLICATION->SetPageProperty("description", "Ýëèòíûå êîòòåäæíûå ïîñåëêè íà Íîâîé Ðèãå. Ïðåäëàãàåì êóïèòü ó÷àñòîê â çàãîðîäíîì ïîñåëêå Ïîäìîñêîâüÿ íà Íîâîðèæñêîì øîññå. Êîòòåäæíûå ïîñåëêè ïðåìèóì êëàññà â Ìîñêîâñêîé îáëàñòè îò  Villagio Estate.");
-$APPLICATION->SetPageProperty("keywords_inner", "ïîñåëîê, ïîäìîñêîâüå, íîâàÿ ðèãà, ìîñêîâñêèé, îáëàñòü, ó÷àñòîê, ïðåìèóì, êëàññ, íîâûé, êîòòåäæíûé, íîâîðèæñêîå øîññå, ýëèòíûé, çàãîðîäíûé, êóïèòü");
-$APPLICATION->SetPageProperty("title", "Íîâûå êîòòåäæíûå ïîñåëêè Ïîäìîñêîâüÿ íà Íîâîðèæñêîì øîññå - êóïèòü ó÷àñòîê â ýëèòíîì ïîñåëêå ïðåìèóì êëàññà íà Íîâîé Ðèãå â Ìîñêîâñêîé îáëàñòè îò Villagio Estate");
-$APPLICATION->SetPageProperty("keywords", "ïîñåëîê, ïîäìîñêîâüå, íîâàÿ ðèãà, ìîñêîâñêèé, îáëàñòü, ó÷àñòîê, ïðåìèóì, êëàññ, íîâûé, êîòòåäæíûé, íîâîðèæñêîå øîññå, ýëèòíûé, çàãîðîäíûé, êóïèòü");
+$APPLICATION->SetPageProperty("description", "Ð­Ð»Ð¸Ñ‚Ð½Ñ‹Ðµ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ðµ Ð¿Ð¾ÑÐµÐ»ÐºÐ¸ Ð½Ð° ÐÐ¾Ð²Ð¾Ð¹ Ð Ð¸Ð³Ðµ. ÐŸÑ€ÐµÐ´Ð»Ð°Ð³Ð°ÐµÐ¼ ÐºÑƒÐ¿Ð¸Ñ‚ÑŒ ÑƒÑ‡Ð°ÑÑ‚Ð¾Ðº Ð² Ð·Ð°Ð³Ð¾Ñ€Ð¾Ð´Ð½Ð¾Ð¼ Ð¿Ð¾ÑÐµÐ»ÐºÐµ ÐŸÐ¾Ð´Ð¼Ð¾ÑÐºÐ¾Ð²ÑŒÑ Ð½Ð° ÐÐ¾Ð²Ð¾Ñ€Ð¸Ð¶ÑÐºÐ¾Ð¼ ÑˆÐ¾ÑÑÐµ. ÐšÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ðµ Ð¿Ð¾ÑÐµÐ»ÐºÐ¸ Ð¿Ñ€ÐµÐ¼Ð¸ÑƒÐ¼ ÐºÐ»Ð°ÑÑÐ° Ð² ÐœÐ¾ÑÐºÐ¾Ð²ÑÐºÐ¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ Ð¾Ñ‚  Villagio Estate.");
+$APPLICATION->SetPageProperty("keywords_inner", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ð¿Ð¾Ð´Ð¼Ð¾ÑÐºÐ¾Ð²ÑŒÐµ, Ð½Ð¾Ð²Ð°Ñ Ñ€Ð¸Ð³Ð°, Ð¼Ð¾ÑÐºÐ¾Ð²ÑÐºÐ¸Ð¹, Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ, ÑƒÑ‡Ð°ÑÑ‚Ð¾Ðº, Ð¿Ñ€ÐµÐ¼Ð¸ÑƒÐ¼, ÐºÐ»Ð°ÑÑ, Ð½Ð¾Ð²Ñ‹Ð¹, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, Ð½Ð¾Ð²Ð¾Ñ€Ð¸Ð¶ÑÐºÐ¾Ðµ ÑˆÐ¾ÑÑÐµ, ÑÐ»Ð¸Ñ‚Ð½Ñ‹Ð¹, Ð·Ð°Ð³Ð¾Ñ€Ð¾Ð´Ð½Ñ‹Ð¹, ÐºÑƒÐ¿Ð¸Ñ‚ÑŒ");
+$APPLICATION->SetPageProperty("title", "ÐÐ¾Ð²Ñ‹Ðµ ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ðµ Ð¿Ð¾ÑÐµÐ»ÐºÐ¸ ÐŸÐ¾Ð´Ð¼Ð¾ÑÐºÐ¾Ð²ÑŒÑ Ð½Ð° ÐÐ¾Ð²Ð¾Ñ€Ð¸Ð¶ÑÐºÐ¾Ð¼ ÑˆÐ¾ÑÑÐµ - ÐºÑƒÐ¿Ð¸Ñ‚ÑŒ ÑƒÑ‡Ð°ÑÑ‚Ð¾Ðº Ð² ÑÐ»Ð¸Ñ‚Ð½Ð¾Ð¼ Ð¿Ð¾ÑÐµÐ»ÐºÐµ Ð¿Ñ€ÐµÐ¼Ð¸ÑƒÐ¼ ÐºÐ»Ð°ÑÑÐ° Ð½Ð° ÐÐ¾Ð²Ð¾Ð¹ Ð Ð¸Ð³Ðµ Ð² ÐœÐ¾ÑÐºÐ¾Ð²ÑÐºÐ¾Ð¹ Ð¾Ð±Ð»Ð°ÑÑ‚Ð¸ Ð¾Ñ‚ Villagio Estate");
+$APPLICATION->SetPageProperty("keywords", "Ð¿Ð¾ÑÐµÐ»Ð¾Ðº, Ð¿Ð¾Ð´Ð¼Ð¾ÑÐºÐ¾Ð²ÑŒÐµ, Ð½Ð¾Ð²Ð°Ñ Ñ€Ð¸Ð³Ð°, Ð¼Ð¾ÑÐºÐ¾Ð²ÑÐºÐ¸Ð¹, Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ, ÑƒÑ‡Ð°ÑÑ‚Ð¾Ðº, Ð¿Ñ€ÐµÐ¼Ð¸ÑƒÐ¼, ÐºÐ»Ð°ÑÑ, Ð½Ð¾Ð²Ñ‹Ð¹, ÐºÐ¾Ñ‚Ñ‚ÐµÐ´Ð¶Ð½Ñ‹Ð¹, Ð½Ð¾Ð²Ð¾Ñ€Ð¸Ð¶ÑÐºÐ¾Ðµ ÑˆÐ¾ÑÑÐµ, ÑÐ»Ð¸Ñ‚Ð½Ñ‹Ð¹, Ð·Ð°Ð³Ð¾Ñ€Ð¾Ð´Ð½Ñ‹Ð¹, ÐºÑƒÐ¿Ð¸Ñ‚ÑŒ");
 $APPLICATION->SetPageProperty('NOT_SHOW_TITLE', 'Y');
-$APPLICATION->SetTitle("Ïîñåëêè");
+$APPLICATION->SetTitle("ÐŸÐ¾ÑÐµÐ»ÐºÐ¸");
 }
 ?>

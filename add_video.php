@@ -5,8 +5,14 @@ $('<a href="#slideshow" style="background: #1b0504 url(/local/templates/villagio
 });
 </script>
 
+<!-- button style -->
+<style>.slideshow-btn:hover { cursor: pointer; background: #bd141e url(/local/templates/villagio/img/ico-video-arrow.png) no-repeat 25px 22px !important; }
+.slideshow-btn { display: none; } </style>
+<!-- iframe style -->	
+<style> .slideshow-btn { display: block; } </style> 
+
 <? //add video in detail page
 if ($arResult["DISPLAY_PROPERTIES"]['video_watch']):?>
-<div id="slideshow" style="margin-top: 24px;"> 
-<?echo $arResult['DISPLAY_PROPERTIES']['video_watch']['DISPLAY_VALUE']; 
+<div id="slideshow" style="margin-top: 24px;">
+<?echo $arResult['DISPLAY_PROPERTIES']['video_watch']['DISPLAY_VALUE']."</div>"; 
 endif;?>

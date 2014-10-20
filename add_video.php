@@ -1,7 +1,7 @@
 <!-- //Add button -->
 <script type="text/javascript">
 $(document).ready(function() {
-$('<a href="#slideshow" style="background: #1b0504 url(/local/templates/villagio/img/ico-video-arrow.png) no-repeat 25px 22px; left: 0px; padding-left: 70px;  font-size: 20px; text-decoration: none; width: 100px;" class="img-plate__desc img-plate__desc_fix-corner img-plate__link slideshow-btn">Слайдшоу</a>').insertAfter(".img-plate__desc_fix-corner");
+$('<a href="#slideshow" style="background: #1b0504 url(/local/templates/villagio/img/ico-video-arrow.png) no-repeat 25px 22px; left: 0px; padding-left: 70px; font-size: 20px; text-decoration: none; width: 100px;  zoom: 0.6; bottom: -35px\9;" class="img-plate__desc img-plate__desc_fix-corner img-plate__link slideshow-btn">Слайдшоу</a>').insertAfter(".img-plate__desc_fix-corner");
 });
 </script>
 
